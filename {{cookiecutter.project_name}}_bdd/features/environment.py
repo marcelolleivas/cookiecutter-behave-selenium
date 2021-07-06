@@ -4,9 +4,9 @@ from logging import config, getLogger
 from os.path import isdir
 from time import strftime
 
-from {{cookiecutter.project_name}}.support.core.element_action import ElementAction
-from {{cookiecutter.project_name}}.support.driver_factory import SeleniumDriverFactory
-from {{cookiecutter.project_name}}.utils import constants
+from {{cookiecutter.project_name}}_bdd.support.core.element_action import ElementAction
+from {{cookiecutter.project_name}}_bdd.support.driver_factory import SeleniumDriverFactory
+from {{cookiecutter.project_name}}_bdd.utils import constants
 
 
 def before_all(context) -> None:

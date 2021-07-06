@@ -9,7 +9,7 @@ from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import Select, WebDriverWait
 
-from {{cookiecutter.project_name}}.utils.assert_utils import Assert
+from {{cookiecutter.project_name}}_bdd.utils.assert_utils import Assert
 
 
 class ElementAction(object):
