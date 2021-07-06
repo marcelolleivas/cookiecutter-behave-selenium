@@ -18,7 +18,7 @@ poetry install
 How to run
 ----------
 
-#### Webdriver Manager ####
+### Webdriver Manager ###
 
 If you want to run the tests using [Webdriver Manager](https://pypi.org/project/webdriver-manager/) 
 please set the variables on ```behave.ini```:
@@ -39,7 +39,7 @@ Or testing single features:
 behave features/{feature_name}
 ```
 
-#### Selenium Grid ####
+### Selenium Grid ###
 
 If you want to run the tests using [Selenium Grid](https://www.selenium.dev/documentation/en/grid/) 
 please set the variables on ```behave.ini```:
