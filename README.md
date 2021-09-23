@@ -1,7 +1,12 @@
 Cookiecutter-Behave-Selenium
 ============================
 
-Template created for BDD tests using behave and selenium.
+Is a [cookiecutter](https://cookiecutter.readthedocs.io/en/1.7.3/) template for BDD tests using Behave and Selenium. 
+This repository was inspired by another two:
+[cookiecutter-behave](https://github.com/dunossauro/cookiecutter-behave) and 
+[BDD Automation Framework](https://github.com/pradeepta02/python-behave-automation-framework). 
+I wanted the idea of a cookiecutter template, as the first 
+mentioned, but with the complexity of the second. Then I mixed both with some adjustments and here it is :)
 
 Requirements
 ------------
@@ -17,7 +22,7 @@ You can generate your template by running:
 cookiecutter gh:marcelolleivas/template-behave-selenium
 ```
 
-Estructure
+Structure
 ----------
 ```
 .
